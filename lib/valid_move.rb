@@ -1,8 +1,8 @@
 # code your #valid_move? method here
 def valid_move?(board,index)
 
-return false if((board[index]!= 1)||(board[index]!= 2)||(board[index]!= 3)||(board[index]!= 4)||(board[index]!= 5)||(board[index]!= 6)||(board[index]!= 7)||(board[index]!= 8)||(board[index]!= 9)
-return false if (position_taken?(board,index) == false)
+return false if((board[index]!= 1)||(board[index]!= 2)||(board[index]!= 3)||(board[index]!= 4)||(board[index]!= 5)||(board[index]!= 6)||(board[index]!= 7)||(board[index]!= 8)||(board[index]!= 9))
+
 else
   true
 end
