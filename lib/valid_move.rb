@@ -9,11 +9,11 @@ def position_taken?(board,index)
   return false if((board[index] == "")||(board[index] == " ")||(board[index] == nil))
   else
     true
-end
+
 end
 def valid_move?(board,index)
   return true if(position_taken?(board,index))== false && index.between?(1,9))
 else
   false
-end
+
 end
