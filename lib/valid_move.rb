@@ -2,8 +2,10 @@
 def valid_move?(board,index)
 
 return false if((board[index]!= 1)||(board[index]!= 2)||(board[index]!= 3)||(board[index]!= 4)||(board[index]!= 5)||(board[index]!= 6)||(board[index]!= 7)||(board[index]!= 8)||(board[index]!= 9))
-else
   return true
+elsif ((position_taken?(board,index) == true)&&((board[index]= 1)||(board[index]= 2)||(board[index]= 3)||(board[index]= 4)||(board[index]= 5)||(board[index]= 6)||(board[index]= 7)||(board[index]= 8)||(board[index]= 9))
+  return true
+
 end
 
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
